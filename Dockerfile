@@ -4,7 +4,7 @@ MAINTAINER devops@citicsinfo.com
 
 WORKDIR /usr/share/logstash
 
-
+ENV JAVA_BASE_URL https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html
 ENV LOGSTASH_VERSION 6.5.4
 ENV LOGSTASH_BASE_URL https://www.elastic.co/cn/downloads/past-releases#logstash
 
